@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	WinExec("E:\\T\\ffmpeg.exe -f image2 -r 1 -i E:\\T\\%d.jpg -vcodec mpeg4 E:\\T\\output.mp4",SW_SHOW);//actual place where the documents store
+	return 0;
+}
